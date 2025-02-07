@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class Addoddeven{
+public class Oddeven{
 public static void main(String[] args){
 Scanner sc = new Scanner(System.in);
   File file = new File("input1.txt");
