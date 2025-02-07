@@ -11,8 +11,7 @@ public class first
 						String name= sc.next();
 						System.out.println("Age: ");
 						int age=sc.nextInt();
-            System.out.println("class: ");
-            String class=sc.next();
+            
 	}catch (FileNotFoundException e){
         System.out.println("Error:file not found");
         e.printStackTrace();
