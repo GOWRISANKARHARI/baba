@@ -17,6 +17,8 @@ even++;
 else{
 odd++;
 }
+  Systom.out.println("EVEN NUMBER:"+even);
+  System.out.println("ODD NUMBER: "+odd);
 }
 }
 }
