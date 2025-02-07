@@ -4,13 +4,13 @@ import java.util.Scanner;
 public class Oddeven{
 public static void main(String[] args){
   try {
-Scanner sc = new Scanner(file);
+    Scanner sc = new Scanner(file);
   File file = new File("input1.txt");
-int size = sc.nextInt();
-int arr[] = new int[size];
-for(int i=0;i<size;i++){
-arr[i] = sc.nextInt();
-}
+    int size = sc.nextInt();
+    int arr[] = new int[size];
+      for(int i=0;i<size;i++){
+        arr[i] = sc.nextInt();
+        }
 int odd = 0;
 int even =0;
 for(int i=0;i<size;i++){
@@ -22,7 +22,8 @@ odd++;
 }
   System.out.println("EVEN NUMBER:"+even);
   System.out.println("ODD NUMBER: "+odd);
-}
+
+
   }
   catch (FileNotFoundException e){
          System.out.println("Error in the file"); 
