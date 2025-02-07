@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 public class Oddeven{
 public static void main(String[] args){
+  try {
 Scanner sc = new Scanner(file);
   File file = new File("input1.txt");
 int size = sc.nextInt();
@@ -22,5 +23,8 @@ odd++;
   System.out.println("EVEN NUMBER:"+even);
   System.out.println("ODD NUMBER: "+odd);
 }
+  }catch (FileNotFoundException){
+         System.out.println("Error in the file"); 
+  }
 }
 }
