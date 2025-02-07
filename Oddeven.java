@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 public class Oddeven{
 public static void main(String[] args){
-Scanner sc = new Scanner(System.in);
+Scanner sc = new Scanner(file);
   File file = new File("input1.txt");
 int size = sc.nextInt();
 int arr[] = new int[size];
