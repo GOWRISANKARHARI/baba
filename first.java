@@ -2,7 +2,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 public class first
-{ public static void main(String[] args)	
+{ public static void main(String[] args)
+ {
 	try{
 		File file = new File("input3.txt");
 		Scanner sc = new Scanner(file); 
@@ -16,4 +17,5 @@ public class first
         System.out.println("Error:file not found");
         e.printStackTrace();
     }
+ }
 }
