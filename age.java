@@ -2,7 +2,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 public class age
-{ public static void main(String[] args)	
+{ 
+	public static void main(String[] args)	
+	{
 	try{
 		File file = new File("input2.txt");
 		Scanner sc = new Scanner(file); 
@@ -14,4 +16,5 @@ public class age
         System.out.println("Error:file not found");
         e.printStackTrace();
     }
+}
 }
