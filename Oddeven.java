@@ -23,8 +23,10 @@ odd++;
   System.out.println("EVEN NUMBER:"+even);
   System.out.println("ODD NUMBER: "+odd);
 }
-  }catch (FileNotFoundException){
+  }
+  catch (FileNotFoundException e){
          System.out.println("Error in the file"); 
+    e.printStackTrace();
   }
 }
 }
