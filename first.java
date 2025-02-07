@@ -4,7 +4,7 @@ import java.util.*;
 public class first
 { public static void main(String[] args)	
 	try{
-		File file = new File("input2.txt");
+		File file = new File("input3.txt");
 		Scanner sc = new Scanner(file); 
 						System.out.println("Name: "); 
 						String name= sc.next();
