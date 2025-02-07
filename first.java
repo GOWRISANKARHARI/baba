@@ -9,6 +9,7 @@ public class first
 		Scanner sc = new Scanner(file); 
 						System.out.println("Name: "); 
 						String name= sc.next();
+							nextline();
 						System.out.println("Age: ");
 						int age=sc.nextInt();
             
